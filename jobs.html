@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name ="description" content ="JavaJam is your  local coffee shop. We have a music venue, a shop for all your apparel and coffee needs, and we have open positions">
+    <link rel="stylesheet" href="javajam.css" />
+    <title> JavaJam Coffee House Careers</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1> JavaJam Coffee House</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <A href="index.html">Home</A>
+                </li>
+                <li>
+                    <A href="menu.html">Menu</A>
+                </li>
+                <li>
+                    <A href="music.html">Music</A>
+                </li>
+                <li>
+                    <A href="jobs.html">Jobs</A>
+                </li>
+                <li>
+                        <A href="gear.html">Gear</A>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div id="herojobs"></div>
+            <h2>Jobs at JavaJam</h2>
+            <P>Want to work at JavaJam? Fill out the form below to start your application.</P>
+            <P>Required fields are marked with an asterisk(*).</P>
+            <form action="https://webdevbasics.net/scripts/javajam8.php"  method ="post" >
+                <label for ="myName"> *Name: </label>
+                <input type="text" name="myName" required ="yes"/>
+                <label for ="myEmail"> *E-mail: </label>
+                <input type="email" name="myEmail" required ="yes" />
+                <label for ="myExperience">*Experience:</label>
+                <textarea rows="2" cols="20" name="myExperience" required ="yes"></textarea>
+                <input type="submit" value="Apply Now"id="mySubmit"></submit>
+            </form>
+        </main>
+        <footer>
+            <P>Copyright @ 2019 JavaJam Coffee House</P>
+            <p><a href="mailto:dylan.sieren01@gmail.com">dylan.sieren01@gmail.com</a></p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
